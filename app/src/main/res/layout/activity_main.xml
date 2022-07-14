@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/rulerImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ruler_image"/>
+
+    <TextView
+        android:id="@+id/secondaryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Converts inches to meters"/>
+
+
+
+    <EditText
+        android:id="@+id/enterInches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Inches"
+        android:layout_margin="8dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/converterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Convert"/>
+
+
+    <TextView
+        android:id="@+id/results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Press Convert for Results"
+        android:layout_margin="8dp"/>
+
+
+</LinearLayout>
